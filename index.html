@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en-ca">
+<head>
+  <meta charset="utf-8">
+  <title>Beau's Bon Bons</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link href="css/modules.css" rel="stylesheet">
+  <link href="css/grid.css" rel="stylesheet">
+  <link href="css/type.css" rel="stylesheet">
+  <link href="css/main.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Dosis|Pacifico" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Beau's Bon Bons</h1>
+    </div>
+    <nav role="navigation" class="nav" id="nav">
+      <div>
+        <ol class="mega list-group-inline push-0">
+          <li><a href="#about">About us</a></li>
+          <li><a href="#sweets">Sweets</a></li>
+          <li><a href="#catering">Catering</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ol>
+      </div>
+    </nav>
+  </header>
+
+  <main role="banner" id="banner">
+    <section>
+      <img src="images/banner.jpg" alt="" aria-describedat="#banner">
+    </div>
+    <div>
+      <h2>About us</h2>
+      <p>We are a confectionery/bakery specializing in popular candy's for all ages. We pride ourselves in using wholesome ingredients and putting every ounce of talent into every bite you get.</p>
+    </section>
+
+    <section id="sweets">
+        <div class="wrapper gutter-1-2">
+        <h2 class="push-0">Sweets</h2>
+        <figure>
+          <img class="img-flex push" src="images/candy-1.jpg" alt="" aria-describedat="#candy-1">
+          <figcaption>We specialize in sugar-based hard candies made by talented confectioners.</figcaption>
+        </figure>
+        <figure>
+          <img class="img-flex push" src="images/candy-2.jpg" alt="" aria-describedat="#candy-2">
+          <figcaption>We also make specialty hand-made high quality cookies, made to order.</figcaption>
+        </figure>
+        <figure>
+          <img class="img-flex push" src="images/candy-3.jpg" alt="" aria-describedat="#candy-3">
+          <figcaption>Try our infamous hand-made candy covered chocolates! Nobody makes them like we do.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="catering">
+      <h2>Catering</h2>
+      <table>
+        <caption class="italic">Prices our varying custom candies</caption>
+        <thead>
+          <tr>
+            <th>&nbsp;</th>
+            <th scope="col">6</th>
+            <th scope="col">12</th>
+            <th scope="col">24</th>
+            <th scope="col">50+</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Custom hard candy</th>
+            <td>$12</td>
+            <td>$24</td>
+            <td>$38</td>
+            <td>$46+</td>
+          </tr>
+          <tr>
+            <th scope="row">Custom cookies</th>
+            <td>$20</td>
+            <td>$40</td>
+            <td>$60</td>
+            <td>$80+</td>
+          </tr>
+          <tr>
+            <th scope="row">Custom candy(bag 100g)</th>
+            <td>$24</td>
+            <td>$44</td>
+            <td>$54</td>
+            <td>$64+</td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <footer>
+    <section id="contact">
+      <div>
+        <h2>Contact</h2>
+        <form>
+          <div>
+            <label for="name" class="push-1-8">Your name</label>
+            <input id="name">
+          </div>
+          <div>
+            <label for="email" class="push-1-8">Email address</label>
+            <input id="email" type="email">
+          </div>
+          <div>
+            <label for="type" class="push-1-8">Inquiry type</label>
+            <select id="type">
+              <option>Catering</option>
+              <option>Misc. question</option>
+              <option>Allergies</option>
+              <option>Professional</option>
+            </select>
+          </div>
+          <div class="unit xs-1 text-center">
+            <button class="btn mega" type="submit">Send</button>
+          </div>
+        </form>
+      </div>
+    </section>
+  </footer>
+</body>
