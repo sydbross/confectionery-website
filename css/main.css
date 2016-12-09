@@ -48,3 +48,11 @@ h3 {
 .banner, .sweets, .catering {
   padding: 1em;
 }
+
+header nav ol li {
+  padding-right: 2em;
+}
+
+.nav-links {
+  padding: 25px;
+}
