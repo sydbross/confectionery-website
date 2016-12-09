@@ -2,22 +2,10 @@ html {
   font-family: Pacifico, cursive;
 }
 
-figcaption {
+figcaption, li a, p, form, table {
   font-family: 'Dosis', sans-serif;
 }
 
-li a {
-  font-family: 'Dosis', sans-serif;
-}
-
-p {
-  font-family: 'Dosis', sans-serif;
-}
-
-form {
-  font-family: 'Dosis', sans-serif;
-}
-
-table {
-  font-family: 'Dosis', sans-serif;
+.header, .banner {
+  background-color: #9DD6C9;
 }
