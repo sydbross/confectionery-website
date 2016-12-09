@@ -12,34 +12,36 @@
 </head>
 
 <body>
-  <header class="header">
-    <div>
+  <header class="header grid">
+    <div class="unit xs-1 s-1 m-1-3 l-1-3">
       <h1>Beau's Bon Bons</h1>
     </div>
-    <nav role="navigation" class="nav" id="nav">
-      <div>
+    <div class="unit xs-1 s-1 m-2-3 l-2-3">
+      <nav role="navigation" class="nav" id="nav">
         <ol class="mega list-group-inline push-0">
           <li><a href="#about">About us</a></li>
           <li><a href="#sweets">Sweets</a></li>
           <li><a href="#catering">Catering</a></li>
           <li><a href="#contact">Contact</a></li>
         </ol>
-      </div>
-    </nav>
+      </nav>
+    </div>
   </header>
 
-  <main role="banner" id="banner">
+  <main role="main" id="main">
     <div>
-      <img src="images/banner.jpg" alt="" aria-describedat="#banner">
+      <img class="img-flex" src="images/banner.jpg" alt="" aria-describedat="#banner">
     </div>
     <section class="banner">
-      <h2>About us</h2>
-      <p>We are a confectionery/bakery specializing in popular candy's for all ages. We pride ourselves in using wholesome ingredients and putting every ounce of talent into every bite you get.</p>
+      <div class="wrapper">
+        <h2 class="pink">About us</h2>
+        <p class="pink-p">We are a confectionery/bakery specializing in popular candy's for all ages. We pride ourselves in using wholesome ingredients and putting every ounce of talent into every bite you get.</p>
+      </div>
     </section>
 
-    <section id="sweets">
+    <section id="sweets" class="sweets">
       <div class="wrapper gutter-1-2">
-        <h2 class="push-0">Sweets</h2>
+        <h2 class="push-0 blue">Sweets</h2>
         <ul class="grid list-group">
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ]">
             <img class="img-flex push" src="images/candy-1.jpg" alt="" aria-describedat="#candy-1">
@@ -66,49 +68,52 @@
       </div>
     </section>
 
-    <section id="catering">
-      <h2>Catering</h2>
-      <table>
-        <caption class="italic">Prices our varying custom candies</caption>
-        <thead>
-          <tr>
-            <th>&nbsp;</th>
-            <th scope="col">6</th>
-            <th scope="col">12</th>
-            <th scope="col">24</th>
-            <th scope="col">50+</th>
-          </tr>
-        </thead>
-        <tbody>
-          <tr>
-            <th scope="row">Custom hard candy</th>
-            <td>$12</td>
-            <td>$24</td>
-            <td>$38</td>
-            <td>$46+</td>
-          </tr>
-          <tr>
-            <th scope="row">Custom cookies</th>
-            <td>$20</td>
-            <td>$40</td>
-            <td>$60</td>
-            <td>$80+</td>
-          </tr>
-          <tr>
-            <th scope="row">Custom candy(bag 100g)</th>
-            <td>$24</td>
-            <td>$44</td>
-            <td>$54</td>
-            <td>$64+</td>
-          </tr>
-        </tbody>
-      </table>
+    <section id="catering" class="catering">
+      <div class="wrapper">
+        <h2 class="pink">Catering</h2>
+        <table>
+          <caption class="italic">Prices our varying custom candies</caption>
+          <thead>
+            <tr>
+              <th>&nbsp;</th>
+              <th scope="col">6</th>
+              <th scope="col">12</th>
+              <th scope="col">24</th>
+              <th scope="col">50+</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th scope="row">Custom hard candy</th>
+              <td>$12</td>
+              <td>$24</td>
+              <td>$38</td>
+              <td>$46+</td>
+            </tr>
+            <tr>
+              <th scope="row">Custom cookies</th>
+              <td>$20</td>
+              <td>$40</td>
+              <td>$60</td>
+              <td>$80+</td>
+            </tr>
+            <tr>
+              <th scope="row">Custom candy(bag 100g)</th>
+              <td>$24</td>
+              <td>$44</td>
+              <td>$54</td>
+              <td>$64+</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
     </section>
   </main>
 
+  <footer>
   <section id="contact" class="contact pad-t pad-b">
     <div class="wrapper">
-      <h2 class="push-0 color-brand-dark gutter-1-2">Contact</h2>
+      <h2 class="push-0 blue gutter-1-2">Contact</h2>
         <form class="grid" method="post">
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label for="name" class="push-1-8">Your name</label>

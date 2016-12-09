@@ -1,11 +1,50 @@
 html {
   font-family: Pacifico, cursive;
+  color: #fff;
 }
 
 figcaption, li a, p, form, table {
   font-family: 'Dosis', sans-serif;
 }
 
-.header, .banner {
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.header {
   background-color: #9DD6C9;
+}
+
+
+.banner, .catering {
+  background-color: #DD8297;
+}
+
+.contact, .sweets {
+  background-color: #08ABA7;
+}
+
+h1 {
+  color: #d91b5b;
+}
+
+.pink {
+  color: #f4d3da;
+}
+
+.blue {
+  color: #9dd6c9;
+}
+
+h3 {
+  color: #9dd6c9;
+}
+
+.pink-p {
+  margin-bottom: 0;
+}
+
+.banner, .sweets, .catering {
+  padding: 1em;
 }
