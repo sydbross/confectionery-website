@@ -56,3 +56,7 @@ header nav ol li {
 .nav-links {
   padding: 25px;
 }
+
+nav ol li:hover {
+  background-color: #d91b5b;
+}
