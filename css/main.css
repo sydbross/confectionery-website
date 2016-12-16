@@ -21,6 +21,10 @@ li a:hover {
   color: #d91b5b;
 }
 
+main {
+  background-image: url("");
+}
+
 .header {
   background-color: #9dd6c9;
 }
