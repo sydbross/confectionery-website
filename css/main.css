@@ -4,25 +4,28 @@ html {
 }
 
 figcaption, li a, p, form, table {
-  font-family: 'Dosis', sans-serif;
+  font-family: Dosis, sans-serif;
 }
 
-a {
+li a {
   text-decoration: none;
   color: #fff;
 }
 
-.header {
-  background-color: #9DD6C9;
+li a:hover {
+  color: #d91b5b;
 }
 
+.header {
+  background-color: #9dd6c9;
+}
 
 .banner, .catering {
-  background-color: #DD8297;
+  background-color: #dd8297;
 }
 
 .contact, .sweets {
-  background-color: #08ABA7;
+  background-color: #08aba7;
 }
 
 h1 {
@@ -49,14 +52,10 @@ h3 {
   padding: 1em;
 }
 
-header nav ol li {
+nav ol li {
   padding-right: 2em;
 }
 
 .nav-links {
   padding: 25px;
-}
-
-nav ol li:hover {
-  background-color: #d91b5b;
 }
