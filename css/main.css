@@ -71,8 +71,5 @@ nav ol li {
 
 nav ol li:hover {
   background-color: #fff;
-}
-
-.btn:hover {
-  background-color: #fff;
+  color: white;
 }
