@@ -12,6 +12,11 @@ li a {
   color: #fff;
 }
 
+.skip-links a {
+  position: absolute;
+  top: -3em;
+}
+
 li a:hover {
   color: #d91b5b;
 }
