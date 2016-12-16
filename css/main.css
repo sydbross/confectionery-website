@@ -68,3 +68,11 @@ nav ol li {
 .nav-links {
   padding: 25px;
 }
+
+nav ol li:hover {
+  background-color: #fff;
+}
+
+.btn:hover {
+  background-color: #fff;
+}
