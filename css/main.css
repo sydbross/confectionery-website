@@ -17,8 +17,9 @@ li a {
   top: -3em;
 }
 
-li a:hover {
-  color: #d91b5b;
+ol li a:hover {
+  color: #08aba7;
+  background-color: #dd8297;
 }
 
 main {
@@ -67,9 +68,4 @@ nav ol li {
 
 .nav-links {
   padding: 25px;
-}
-
-nav ol li:hover {
-  background-color: #fff;
-  color: white;
 }

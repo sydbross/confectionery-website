@@ -14,7 +14,7 @@
 <body>
   <header role="banner" class="header grid">
     <div class="wrapper">
-      <div class="unit xs-1 s-1 m-1-3 l-1-3">
+      <div class="unit xs-1 s-1 m-1-3 l-1-3 embed embed-item">
         <h1>Beau's Bon Bons</h1>
       </div>
       <div class="unit xs-1 s-1 m-2-3 l-2-3 text-right nav-links">
@@ -47,7 +47,7 @@
         <h2 class="push-0 blue">Sweets</h2>
         <ul class="grid list-group">
           <li class="unit [ xs-1 s-1 m-1-2 l-1-3 ] gutter-1-2">
-            <img class="img-flex embed embed-item push" src="images/candy-1.jpg" alt="">
+            <img class="img-flex push" src="images/candy-1.jpg" alt="">
             <div class="gutter-1-4" id="hard-candies">
               <h3 class="mega push-0">Hard Candies</h3>
               <p>We specialize in sugar-based hard candies made by talented confectioners.</p>
@@ -118,14 +118,14 @@
       <div class="wrapper">
         <h2 class="push-0 blue gutter-1-2">Contact</h2>
 
-        <form class="grid" method="post" action="formspree.io/sydbross@gmail.com">
+          <form class="grid" method="POST" action="formspree.io/sydbross@gmail.com">
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label for="name" class="push-1-8">Your name</label>
-            <input id="name" name="flname">
+            <input id="name" name="name">
           </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label for="email" class="push-1-8">Email address</label>
-            <input id="email" name="email" type="email">
+            <input id="email" name="email" placeholder="me@me.com">
           </div>
           <div class="unit [ xs-1 s-1 m-1-2 l-1-3 ] push gutter-1-2">
             <label for="type" class="push-1-8">Inquiry type</label>
